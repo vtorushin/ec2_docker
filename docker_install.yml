@@ -1,6 +1,9 @@
 ---
-- name: Nginx install
+- name: Install docker
   hosts: all
   become: yes
   roles:
     - geerlingguy.docker
+  post_tasks:
+    - name: add permissions
+      command: usermod -aG docker $USER
