@@ -1,0 +1,20 @@
+############################ Attention!! ####################################
+## Before starting, rename the file and fill in the variable values #########
+#############################################################################
+
+# User ssh key
+workpc_pub_key_name = ""
+workpc_pub_key_path = ""
+inst_type  = "t2.micro"
+vpc_count  = "1"
+vpc_name = "vtor_docker"
+
+####################### AWS Provider Variables ##############################
+#############################################################################
+
+# Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
+aws_ami_id = "ami-0cc0a36f626a4fdf5"
+
+aws_access_key = ""
+aws_secret_key = ""
+aws_region = "eu-central-1"

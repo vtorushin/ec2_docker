@@ -1,0 +1,6 @@
+---
+- name: Nginx install
+  hosts: all
+  become: yes
+  roles:
+    - geerlingguy.docker
